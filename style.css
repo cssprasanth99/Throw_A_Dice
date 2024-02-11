@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#dice-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#winner {
+    font-size: 2rem;
+    text-align: center;
+    padding: 50xp;
+}
+
+#member-1,
+#member-2,
+#member-3 {
+    border: 2px solid;
+    background-color: aqua;
+    padding: 40px;
+    margin: 20px;
+}
+
+#roll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+}
+
+#roll>button {
+    color: aliceblue;
+    background-color: #da3e3e;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+#roll>button:hover {
+    color: aliceblue;
+    background-color: #e10505;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
